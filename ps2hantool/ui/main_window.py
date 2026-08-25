@@ -26,7 +26,7 @@ class MainWindow(QMainWindow):
 
     def __init__(self, project_dir=None):
         super().__init__()
-        self.setWindowTitle("PS2 游戏一键汉化工具（心跳回忆系列优先支持）")
+        self.setWindowTitle("PS2 游戏一键汉化工具")
         self.resize(1180, 780)
 
         # 中央：左侧导航 + 页面堆栈
