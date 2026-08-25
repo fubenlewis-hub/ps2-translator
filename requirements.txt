@@ -1,0 +1,5 @@
+PySide6>=6.5
+pycdlib>=1.14
+pillow>=10.0
+requests>=2.31
+opencc-python-reimplemented>=1.1.7

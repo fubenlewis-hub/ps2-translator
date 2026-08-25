@@ -1,0 +1,36 @@
+# 工程数据与隐私（settings.json 含翻译引擎 API key，严禁上传）
+projects/
+dist/projects/
+**/data/settings.json
+**/data/similar.json
+**/data/translated.json
+
+# 提取的大文件（游戏数据，不纳入版本库）
+**/work/
+**/backup/
+**/output/
+
+# 构建产物
+build*/
+build_tmp*/
+build_v*/
+dist_new*/
+dist_v*/
+__pycache__/
+*.pyc
+
+# 日志与临时
+*.log
+crash.log
+app.log
+selftest.txt
+loadcheck.txt
+flowtest.txt
+gui_crash.log
+*.tmp
+
+# exe 走 Releases 发布，不纳入仓库
+dist/
+
+# demo 工程数据（游戏提取文本，仅保留 CSV 示例）
+demo/*_project/
