@@ -23,7 +23,8 @@
 ## 快速开始
 
 ### 方式一：使用打包好的 exe（推荐给普通用户）
-- 直接双击 `dist/PS2汉化工具.exe`（单文件，无需安装 Python 与依赖）；
+- **GitHub Releases 下载**：https://github.com/fubenlewis-hub/ps2-translator/releases
+  （`PS2HanhuaTool-v1.0.0.exe`，单文件，无需安装 Python 与依赖）
 - 工程数据默认保存在 exe 同目录下的 `projects/` 文件夹；
 - 重新打包方法见下文「打包为 exe」。
 
